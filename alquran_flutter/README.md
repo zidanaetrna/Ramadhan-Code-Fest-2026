@@ -1,5 +1,7 @@
 # Al-Qur'an Flutter App (AlQuran Cloud)
+## Author
 
+Created by **ajiputra**
 Aplikasi Al-Qur'an sederhana (Flutter) menggunakan AlQuran Cloud API.
 
 ## Fitur
