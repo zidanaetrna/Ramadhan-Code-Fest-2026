@@ -23,7 +23,19 @@ class _SurahListPageState extends State<SurahListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Daftar Surah')),
+      appBar: AppBar(
+  title: const Text('Daftar Surah'),
+  bottom: const PreferredSize(
+    preferredSize: Size.fromHeight(20),
+    child: Padding(
+      padding: EdgeInsets.only(bottom: 6),
+      child: Text(
+        "Created by ajiputra",
+        style: TextStyle(fontSize: 12),
+      ),
+    ),
+  ),
+),
       body: FutureBuilder<List<dynamic>>(
         future: future,
         builder: (context, snap) {
